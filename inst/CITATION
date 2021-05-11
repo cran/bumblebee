@@ -1,0 +1,17 @@
+citHeader("To cite bumblebee in publications use:")
+
+citEntry(entry = "Manual",
+  title        = "Quantify Disease Transmission Within and Between Population Groups {bumblebee}",
+  author       = personList(as.person("Lerato E. Magosi"),
+                   as.person("Marc Lipsitch")),
+  year         = "2021",
+  note         = "R package version 0.1.0",
+  url          = "https://magosil86.github.io/bumblebee/",
+
+  textVersion  =
+  paste("Lerato E. Magosi, Marc Lipsitch (2021).",
+        "Bumblebee: Quantify Disease Transmission Within and Between Population Groups.",
+        "R package version 0.1.0",
+        "URL https://magosil86.github.io/bumblebee/")
+)
+
